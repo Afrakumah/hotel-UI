@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+
+    <script
+      src="https://kit.fontawesome.com/ea32bb15a9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="hotel.css" />
+
+ 
+  </head>
+  <body>
+    <header>
+      <!-- <h1 class="logo">HOTEL</h1> -->
+      <span class="logo">HOTEL</span>
+      <nav>
+        <ul class="menu">
+          <li class="list"><a href="#">Home</a></li>
+          <li class="list" ><a href="#">Accomodations</a></li>
+          <li class="list"><a href="#">Menus</a></li>
+          <li class="list"><a href="#">About Us</a></li>
+          <li class="list"><a href="#">Events</a></li>
+          <li class="list"><a href="#">Contact Us</a></li>
+          <button id = "serve">Reservations</button>
+        </ul>
+      </nav>
+  
+<button id="ham">
+  <i class="fa-solid fa-bars"></i>
+</button>
+
+    </header>
+
+    <!------------hero section------------ -->
+    <section class="hero">
+      <span>In A Great Hotel,<br> You Don't Just <br> Stay You Belong </span>
+
+      <form action="">
+        <div>
+          <label for="city" id="city">Select City</label>
+          <select name="" id="city">
+            <option value="paris">Paris</option>
+            <option value="Accra">Accra</option>
+            <option value="Kumasi">Kumasi</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="adate" id="date">Arrival Date</label>
+          <input type="date" name="" id="adate" />
+        </div>
+
+        <div>
+          <label for="date" id="date">Departure Date</label>
+          <input type="date" name="" id="date" />
+        </div>
+
+        <div>
+          <label for="guest" id="adate">Guests</label>
+          <select name="" id="guest">
+            <option value="12">12</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+
+        <div>
+          <button class="btn-primary">Search</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- <section class="graybg"></section> -->
+
+    <section class="aboutus">
+      <h2>About Us</h2>
+      <div>
+        <div class="aboutus_block">
+          <div class="discovery">
+            <h3>
+              Discover Our Resort <br />
+              Just In Click
+            </h3>
+
+            <p>
+              One of my highlights of my stay was the food our restaurant
+              served. some of the most delicious meals i've ever had and the
+              breakfast Buffet was especially impressive. I also appreciated the
+              thoughtful touches, such as the complimentary water bottles and
+              the turn-down services.
+            </p>
+
+            <div>
+              <button class="btn-primary">Explore More</button>
+            </div>
+          </div>
+
+          <div>
+            <img src="imageshotel/aboutus.jpg" alt="about us" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- choose section starts here----------- -->
+
+    <section class="choose">
+      <h2>Why Choose Us</h2>
+
+      <p class="intro">
+        Lorem ipsum dolor sit amet consectetur. Scelerisque risus tempor
+        faucibus nec mi ultrices. Tincidunt adipiscing pellentesque blandit
+        purus suspendisse. Risus senectus eu egestas potenti suspendisse amet
+        vitae. Enim diam eleifend at in pretium nulla rhoncus étiam
+      </p>
+
+      <div class="services">
+        <div class="services_container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Tortor sed neque habitant
+            porttitor sollicitudin amet vestibulum. Congue purus aliquet non
+            feugiat sed interdum varius tellus. Pelientesque pellentesque morbi
+            quis libero fermentum mi enim at.
+          </p>
+
+          <div class="service_list">
+            <span>
+              <i class="fa-regular fa-circle-check"></i>Swimming pool</span
+            >
+            <span> <i class="fa-regular fa-circle-check"></i>Gym</span>
+            <span> <i class="fa-regular fa-circle-check"></i>Wifi</span>
+            <span> <i class="fa-regular fa-circle-check"></i>Electricity</span>
+            <span> <i class="fa-regular fa-circle-check"></i>Food</span>
+            <span> <i class="fa-regular fa-circle-check"></i>Spa</span>
+          </div>
+
+          <div>
+            <button class="btn-primary">More Services</button>
+          </div>
+        </div>
+
+        <div class="img">
+          <img src="imageshotel/news&articles1.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="room_services">
+      <h2>Rooms</h2>
+
+      <div class="rooms">
+        <img src="imageshotel/room1.jpeg" alt="room 1" />
+        <img src="imageshotel/rooms3.jpeg" alt="room 2" />
+        <img src="imageshotel/rooms3.jpg" alt="room 3" />
+        <img src="imageshotel/room1.jpeg" alt="room 4" />
+      </div>
+
+      <div class="btns">
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+      <div class="analytics">
+        <div>
+          <span>230+</span>
+          <span>Booking month</span>
+        </div>
+        <div>
+          <span>130+</span>
+          <span>Visitors Daily</span>
+        </div>
+        <div>
+          <span>35%</span>
+          <span>Visitors Daily</span>
+        </div>
+        <div>
+          <span>35%</span>
+          <span>Visitors Daily</span>
+        </div>
+      </div>
+    </section>
+
+    <!---------- food section starts here----------- -->
+
+    <section class="food_menu">
+      <h2>Food Menu</h2>
+
+      <p class="menu_intro">
+        Lorem ipsum dolor sit amet consectetur. Scelerisque risus tempor
+        faucibus nec mi ultrices. Tincidunt adipiscing pellentesque blandit
+        purus suspendisse. Risus senectus eu egestas potenti suspendisse amet
+        vitae. Enim diam eleifend at in pretium nulla rhoncus étiam
+      </p>
+
+      <div class="menu">
+        <img src="imageshotel/foodmenu1.jpg" alt="food1" />
+        <img src="imageshotel/foodmenu2.jpg" alt="food2" />
+        <img src="imageshotel/foodmenu3.jpg" alt="food3" />
+      </div>
+
+      <button class="btn-primary">More services</button>
+    </section>
+
+    <!---------- special section starts here----------- -->
+
+    <section class="special">
+      <h2>Special offer</h2>
+
+      <div>
+        <img src="imageshotel/specialrate.jpg" alt="special" />
+      </div>
+    </section>
+
+    <!---------- testimonials section starts here----------- -->
+    <section class="testimonials">
+      <h2>Our Testimonials</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Scelerisque risus tempor
+        faucibus nec mi ultrices. Tincidunt adipiscing pellentesque blandit
+        purus suspendisse. Risus senectus eu egestas potenti suspendisse
+      </p>
+
+      <div class="testimony">
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+
+        <div class="content_wrapper">
+          <div class="testimony_img">
+            <img src="imageshotel/haider.jpeg" alt="" />
+
+            <span>Haider</span>
+
+            <div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+
+          <div class="testimony_text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Scelerisque risus tempor
+              faucibus nec mi ultrices. Tincidunt adipiscing pellentesque
+              blandit purus suspendisse. Risus senectus eu egestas potenti
+              suspendisse amet vitae. Enim diam eleifend at in pretium nulla
+              rhoncus étiam
+            </p>
+
+            <div class="time">
+              <span>Date</span>
+              <span>11/06/2023</span>
+            </div>
+          </div>
+        </div>
+
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <!---------- news section starts here----------- -->
+    
+
+    <section class="news_articles">
+      <h2>News &amp; Articles</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Scelerisque risus tempor
+        faucibus nec mi ultrices. Tincidunt adipiscing pellentesque blandit
+        purus suspendisse. Risus senectus eu egestas potenti suspendisse
+      </p>
+
+      <div class="articles">
+        <div class="article">
+          <div class="art_img">
+            <img src="imageshotel/news&articles1.jpg" alt="news" />
+          </div>
+
+          <div class="cal">
+            <span>06</span>
+            <span>Mar</span>
+          </div>
+
+          <div class="art_desc">
+            <span class="left">Haider</span>
+            <p class="left">Lorem ipsum dolor sit amet consectetur</p>
+
+            <div>
+              <button class="btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="article">
+          <div class="art_img">
+            <img src="imageshotel/news7articles2.webp" alt="news" />
+          </div>
+
+          <div class="cal">
+            <span>06</span>
+            <span>Mar</span>
+          </div>
+
+          <div class="art_desc">
+            <span class="left">Haider</span>
+            <p class="left">Lorem ipsum dolor sit amet consectetur</p>
+
+            <div>
+              <button class="btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="article">
+          <div class="art_img">
+            <img src="imageshotel/news&aricles3.jpeg" alt="news" />
+          </div>
+
+          <div class="cal">
+            <span>06</span>
+            <span>Mar</span>
+          </div>
+
+          <div class="art_desc">
+            <span class="left">Haider</span>
+            <p class="left">Lorem ipsum dolor sit amet consectetur</p>
+
+            <div>
+              <button class="btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="subscription">
+      <h2>Subscribe To Our Newsletter</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur. Scelerisque risus tempor
+        faucibus nec mi ultrices. <br> Tincidunt adipiscing pellentesque blandit
+        purus suspendisse. Risus senectus eu egestas
+      </p>
+
+      <div class="input_email">
+        <input type="email" name="" id="" placeholder="Enter your email" />
+        <div>
+<button class="btn-primary">Submit</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- --------footer section starts here------ -->
+   <footer>
+    <div class="download">
+      <span class="logo">HOTEL</span>
+      <span>Download the app by the link below</span>
+      <div>
+        <img src="imageshotel/playstore.png" alt="playstore">
+        <img src="imageshotel/playstore.png" alt="playstore">
+      </div>
+    </div>
+
+    <div>
+      <h3>For Beginners</h3>
+
+      <ul>
+        <li><a href="New Account"></a>New Account</li>
+        <li><a href="Start Booking A room"></a>Start Booking A room</li>
+        <li><a href="Use Payment"></a>Use Payment</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Explore Us</h3>
+
+      <ul>
+        <li><a href="Our Careers"></a>Our Careers</li>
+        <li><a href="Privacy"></a>Privacy</li>
+        <li><a href="Terms and Conditions"></a>Terms and Conditions</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Connect Us</h3>
+
+      <ul>
+        <li><a href="phone"><i class="fa-solid fa-phone"></i></a>(+92)3161880923</li>
+        <li><a href="message"><i class="fa-solid fa-envelope"></i></a>Ah4014459@gmail.com</li>
+        <li><a href="location"><i class="fa-solid fa-location-dot"></i></a>North Parkistan</li>
+      </ul>
+    </div>
+
+
+    <div>
+      <h3>Social Media</h3>
+
+      <ul>
+        <li><a href="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+    </div>
+   </footer>
+
+   <script src="hotel.js"></script>
+
+  </body>
+</html>
